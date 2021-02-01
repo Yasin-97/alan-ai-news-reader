@@ -11,7 +11,6 @@ export const theme = createMuiTheme({
 export default makeStyles({
     container:{
         display:"felx",
-    flexDirection:"column",
     alignItems:"center",
     padding:"0 5%",
     color:"#dfdfdf",
