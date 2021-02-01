@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap');
+
+#root,html,body{
+  font-family: 'Coda Caption', sans-serif !important;
+  height: 100vh;
+  font-weight: 500;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+}
+
+body{
+  margin: 0;
+  background-color: #160f30;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
