@@ -22,7 +22,7 @@ function App() {
       key: alanKey,
       // to connect react to Alan studio
       onCommand: ({ command, articles, number }) => {
-        if (command === "newHeadlines") {
+        if (command === "NewHeadlines") {
           setNewsArticles(articles);
           setActiveArticle(-1);
         } else if (command === "highlight") {
