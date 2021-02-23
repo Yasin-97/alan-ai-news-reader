@@ -33,6 +33,7 @@ function App() {
             number.length > 2
               ? wordsToNumbers(number, { fuzzy: true })
               : number;
+           alert(number);
           const article = articles[parsedNumber - 1];
           if (parsedNumber > 20) {
             alanBtn().playText("please try that again.");
