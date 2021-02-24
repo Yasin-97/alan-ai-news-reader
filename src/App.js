@@ -43,6 +43,9 @@ function App() {
         }
       },
     });
+    setTimeout(() => {
+      alert("Please make sure your microphone is enabled.")
+    }, 3000);
   }, []);
 
   return (
