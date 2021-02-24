@@ -11,11 +11,12 @@ export const theme = createMuiTheme({
 export default makeStyles({
     container:{
         display:"felx",
-    alignItems:"center",
-    padding:"0 5%",
-    color:"#dfdfdf",
-    width:"100% !important",
-    margin:" 0px !important"
+        alignItems:"center",
+        justifyContent:"center",
+        padding:"0 5%",
+        color:"#a6a9b6",
+        width:"100% !important",
+        margin:" 0px !important"
 },
     cardsContainer:{
         padding:"0",
